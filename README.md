@@ -78,6 +78,7 @@ Database access is protected using Row Level Security (RLS) policies.
 * 📊 Reading progress tracking
 * 📖 Book details page
 * 🔍 Search within library
+* 🤖 AI-based book recommendation system (personalized suggestions based on user’s reading history and preferences)
 * 🎨 UI enhancements
 
 ---
