@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Browse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">Velora Library</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="browse.html">Browse</a>
+            <a href="library.html">Library</a>
+            <a href="auth.html">Login</a>
+        </div>
+    </div>
+
+    <h2 style="padding:40px 60px;color:#C6A75E">Browse Books</h2>
+
+    <!-- 🔥 FIXED SEARCH SECTION -->
+    <div style="padding:0 60px; max-width:400px;">
+        <input type="text" id="searchInput" placeholder="Search books...">
+        <button class="button-gold" onclick="searchBooks()">Search</button>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="grid" id="browseContainer"></div>
+
+    <!-- SCRIPTS (ORDER IMPORTANT) -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
